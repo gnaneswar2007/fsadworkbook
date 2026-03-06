@@ -1,0 +1,111 @@
+    .container {
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  width: 150px;
+  border: 2px solid #667eea;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+  font-weight: 500;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff6b6b;
+  box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+  transform: scale(1.05);
+}
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(17, 153, 142, 0.4);
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(17, 153, 142, 0.6);
+  background: linear-gradient(135deg, #38ef7d 0%, #11998e 100%);
+}
+
+.delete {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+.delete:hover {
+  background: linear-gradient(135deg, #ee5a6f 0%, #c44569 100%);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 2px solid #dfe6e9;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+th {
+  background: linear-gradient(135deg, #fa8231 0%, #ffd32a 100%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+td {
+  background-color: white;
+}
+
+tr:nth-child(even) td {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+}
+
+tr:nth-child(odd) td {
+  background: linear-gradient(135deg, #fff9e6 0%, #ffe0b2 100%);
+}
+
+tr:hover td {
+  background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
